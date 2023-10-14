@@ -1,0 +1,128 @@
+head {
+  background-image: url(../assets/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+body{
+  background-image: url(../assets/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 7%;
+}
+
+body img{
+	
+
+}
+
+h1 {
+    font-size: 36px; /* tamaño del texto */
+    background: linear-gradient(to right, #ff0000, #00ff00); /* gradiente rojo a verde */
+    -webkit-background-clip: text; /* se aplica el gradiente sólo al texto en Safari/Chrome */
+    -webkit-text-fill-color: transparent; /* se rellena el texto con el gradiente en Safari/Chrome */
+    background-clip: text; /* se aplica el gradiente sólo al texto en otros navegadores */
+    text-fill-color: transparent; /* se rellena el texto con el gradiente en otros navegadores */
+  }
+  
+  h1:hover {
+    font-size: 36px; /* tamaño del texto */
+    background: linear-gradient(to right, #ff000083, #00ff0088); /* gradiente rojo a verde */
+    -webkit-background-clip: text; /* se aplica el gradiente sólo al texto en Safari/Chrome */
+    -webkit-text-fill-color: transparent; /* se rellena el texto con el gradiente en Safari/Chrome */
+    background-clip: text; /* se aplica el gradiente sólo al texto en otros navegadores */
+    text-fill-color: transparent; /* se rellena el texto con el gradiente en otros navegadores */
+  }
+.Recuadro{
+  color: #f9f9f9;
+  background-color:rgb(121, 113, 113); 
+  width:500px; 
+  margin:auto; 
+  padding:30px; 
+  text-align:center;
+  border-radius: 30%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.InicioSesion{
+  font-size: 150%;
+  color: #f9f9f9;
+}
+
+  img {
+    width: 70%;
+    height: 70%;
+    transition: width 1s, height 1s; /* agregamos transición a width y height */
+}
+  
+  img:hover {
+    width: 71%;
+    height: 71%;
+  }
+
+ .logo{
+  height: 40px;
+  width: 40px;
+ }
+
+ .logo:hover{
+  height: 41px;
+  width: 41px;
+ }
+ nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+.logo {
+  display: inline-block; /* Agregamos display inline-block para que se muestre en línea */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between; /* Distribuir elementos horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  /* Distribuir elementos horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+}
+
+.menu a,
+.boton {
+  display: inline-block;
+}
+
+.dropdown a {
+  color: #fff;
+  margin-left: 15px;
+}
+
+.dropdown a:hover {
+  color: #f30c0c;
+}
+
+.menu:hover .dropdown-content {
+  display: block;
+}
+
+p{
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.container p{
+  font-size: 15px;
+  font-weight: bold;
+}

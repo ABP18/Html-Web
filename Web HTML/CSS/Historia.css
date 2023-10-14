@@ -1,0 +1,211 @@
+head {
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 7%;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    transition: width 1s, height 1s;
+}
+
+img.centrado {
+    display: block;
+    margin: auto;
+}
+
+img:hover {
+    width: 81%;
+    height: 81%;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.logo:hover {
+    height: 41px;
+    width: 41px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuir elementos horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+}
+
+.menu a,
+.boton {
+    display: inline-block;
+}
+
+.dropdown a {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.dropdown a:hover {
+    color: #f30c0c;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+.titulo1 p {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.container p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+ .texto p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  
+  .boton {
+    background-color: #f44336;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+  
+  .boton:hover {
+    background-color: #ff6659;
+    cursor: pointer;
+  }
+  .boton:active {
+    transform: translatex(2px);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    background-color: black;  
+}
+/*HTML GAMES*/
+.tituloJuegos p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+.Games p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+/*HTML News*/
+
+img.Noticia{
+  width: 60%;
+  height: 60%;
+  transition: width 1s, height 1s;
+}
+
+img.Noticia:hover {
+  width: 61%;
+  height: 61%;
+}
+
+/*HTML Registrarte*/
+
+.formulario {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+
